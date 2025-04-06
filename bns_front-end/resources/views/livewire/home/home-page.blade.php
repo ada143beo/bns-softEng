@@ -488,59 +488,124 @@
     </section>
 
     {{-- ACTIVITIES --}}
-    <section id="activities" class="py-5 text-center">
-        <div class="container">
-            <h2 class="fw-bold text-success mb-3">Activities</h2>
-          
-
-            <div class="row justify-content-center mt-4">
-                <div class="col-lg-10">
-                    <div class="card border-success shadow-sm p-4">
-                        <h4 class="fw-bold text-success">Programa / Proyekto / Aktibidad</h4>
-                        <ul class="list-group list-group-flush text-start mt-3">
-                            <li class="list-group-item"><strong>1.</strong> Full Weighing (OPT+) / Office Supplies</li>
-                            <li class="list-group-item"><strong>2.</strong> Monthly / Quarterly Weighing</li>
-                            <li class="list-group-item"><strong>3.</strong> Infant and Young Child Feeding</li>
-                            <li class="list-group-item"><strong>4.</strong> Integrated Management of Acute Malnutrition
-                            </li>
-                            <li class="list-group-item"><strong>5.</strong> Dietary Supplementation Program</li>
-                            <li class="list-group-item"><strong>6.</strong> Nutrition Promotion Program & Behavior
-                                Change</li>
-                            <li class="list-group-item"><strong>7.</strong> Micronutrient Supplementation</li>
-                            <li class="list-group-item"><strong>8.</strong> Nutrition Emergency</li>
-                            <li class="list-group-item"><strong>9.</strong> Overweight and Obesity Management</li>
-                            <li class="list-group-item"><strong>10.</strong> Strengthening First 1000 Days Program</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <style>
         #activities {
             background: #E8F5E9;
             padding: 80px 0;
-            border-radius: 0 0 50px 50px;
+            border-radius: 50px 50px 0 0;
         }
-
-        .card {
-            background: white;
-            border-radius: 15px;
+    
+        #activities h2 {
+            font-weight: bold;
+            color: #2E7D32;
         }
-
-        .list-group-item {
-            border: none;
-            padding: 10px 15px;
-            font-size: 1.1rem;
+    
+        #activities p {
+            color: #4E944F;
         }
-
-        @media (max-width: 768px) {
-            #activities {
-                padding: 60px 20px;
-            }
+    
+        .activity-list {
+            max-width: 1000px;
+            margin: 0 auto;
+            text-align: left;
+            padding: 30px;
+            background-color: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
         }
+    
+        .activity-list h4 {
+            color: #1B5E20;
+            margin-top: 30px;
+            font-weight: 600;
+        }
+    
+        .activity-list ul {
+            list-style: none;
+            padding-left: 1rem;
+        }
+    
+        .activity-list ul li::before {
+            content: '✔';
+            color: #66BB6A;
+            margin-right: 8px;
+        }
+    
+        .activity-sub {
+            margin-left: 20px;
+            font-style: italic;
+            color: #388E3C;
+        }
+    
     </style>
+    
+    <section id="activities" class="text-center">
+        <div class="container">
+            <h2 class="mb-3">Activities</h2>
+            <p class="fs-5 text-muted">Record and track barangay nutrition initiatives seamlessly with our system.</p>
+    
+            <div class="activity-list text-start">
+                <ul>
+                    <li>Full Weighing (OPT+)/Office Supplies</li>
+                    <li>Monthly/Quarterly Weighing</li>
+    
+                    <h4>Infant and Young Child Feeding</h4>
+                    <ul>
+                        <li>Presence of Lactation Area in Health Station</li>
+                        <li>Breastfeeding Counselling</li>
+                        <li>Distribution of IEC Materials – "Idol ko si Tatay"</li>
+                        <li>Distribution of IEC Materials on Breastfeeding & Complementary Feeding</li>
+                    </ul>
+    
+                    <h4>Integrated Management of Acute Malnutrition</h4>
+                    <ul>
+                        <li>Enrollment of Malnourished Children for Dietary Feeding Program</li>
+                        <li>Distribution of PIMAM Tarpaulin at Barangay Health Station</li>
+                    </ul>
+    
+                    <h4>Dietary Supplementation Program</h4>
+                    <ul>
+                        <li>Hot Meal Feeding Program for Pregnant Women – <span class="activity-sub">Tutok-Kainan</span></li>
+                        <li>120-Day Daily Feeding for Children</li>
+                    </ul>
+    
+                    <h4>Nutrition Promotion & Behavior Change</h4>
+                    <ul>
+                        <li>Nutrition Counselling</li>
+                    </ul>
+    
+                    <h4>Micronutrient Supplementation</h4>
+                    <ul>
+                        <li>Vitamin A</li>
+                        <li>Iron, Iron-Folic Acid, Micronutrient Powder, Calcium</li>
+                    </ul>
+    
+                    <h4>Nutrition Emergency Response</h4>
+                    <ul>
+                        <li>Distribution of Food Packs</li>
+                    </ul>
+    
+                    <h4>Overweight & Obesity Management Program</h4>
+                    <ul>
+                        <li>Promotion of Healthy Lifestyle</li>
+                        <li>Zumba Dance</li>
+                        <li>Basketball Tournament</li>
+                        <li>Distribution of IEC Materials</li>
+                    </ul>
+    
+                    <h4>Strengthening the First 1000 Days Program</h4>
+                    <ul>
+                        <li>Distribution of Nutrition Advocacy IEC for Youth</li>
+                        <li>Breastfeeding Counselling</li>
+                        <li>“Idol ko si Nanay” Campaign</li>
+                        <li>Backyard Gardening & Seedling Distribution</li>
+                        <li>Nutrition Month Celebration</li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
 
 
 
