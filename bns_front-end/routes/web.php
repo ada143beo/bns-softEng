@@ -6,6 +6,7 @@ use App\Livewire\Admin\AdminCreateAttendance;
 use App\Livewire\Admin\AdminManageProfiles;
 use App\Livewire\Admin\AdminWelcomePage;
 use App\Livewire\Bns\BnsProfile;
+use App\Livewire\Bns\BnsLogout;
 use App\Livewire\Bns\BnsSubmitActivities;
 use App\Livewire\Bns\BnsSubmitAttendance;
 use App\Livewire\Bns\BnsViewActivities;
@@ -40,6 +41,7 @@ Route::get('/bns/past-attendance', BnsViewAttendance::class)->name('attendance')
 Route::get('/bns/submit-activities', BnsSubmitActivities::class)->name('submit-activities');
 Route::get('/bns/past-activities', BnsViewActivities::class)->name('activities');
 Route::get('/bns/profile', BnsProfile::class)->name('profile');
+Route::get('/bns/log-out', BnsLogout::class)->name('logout');
 
 //ADMIN
 Route::get('/admin/welcome', AdminWelcomePage::class)->name('a-welcome');

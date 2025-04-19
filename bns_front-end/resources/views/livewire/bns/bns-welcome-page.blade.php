@@ -89,8 +89,8 @@
 
         .shortcut-card:hover {
             transform: scale(1.05);
-            background-color: #198754;
-            color: white !important;
+            background-color: #7df7a1;
+            color: rgb(0, 0, 0) !important;
         }
 
         .shortcut-card:hover i {

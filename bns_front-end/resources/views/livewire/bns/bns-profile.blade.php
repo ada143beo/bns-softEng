@@ -125,7 +125,7 @@
                         <a href="{{ route('profile') }}" class="active nav-link">
                             <i class="bi bi-person-circle"></i> Profile
                         </a>
-                        <a href="#" class="nav-link logout">
+                        <a href="{{ route('logout') }}" class="nav-link logout">
                             <i class="bi bi-box-arrow-right"></i> Logout
                         </a>
                     </nav>
