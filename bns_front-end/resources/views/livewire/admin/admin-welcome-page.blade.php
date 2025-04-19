@@ -1,11 +1,13 @@
 <div>
-    <div class="container-fluid d-flex justify-content-center align-items-center vh-100 bg-success">
+    <div class="container-fluid d-flex justify-content-center align-items-center vh-100">
         <!-- MAIN CONTENT -->
-        <main class="text-center p-4 rounded shadow-lg bg-white w-100" style="max-width: 900px;">
-            <h1 class="fw-bold text-success"> Welcome, Admin! </h1>
-            <p class="text-muted fs-5">
-                Manage attendance, track activities, and oversee accounts efficiently using the tools below.
-            </p>
+        <main class="text-center p-4 rounded shadow-lg bg-success w-100">
+            <div class="py-4">
+                <h1 class="fw-bold text-white"> Welcome, Barangay Admin! </h1>
+                <p class="fs-5 text-white">
+                    Manage attendance, track activities, and oversee accounts efficiently using the tools below.
+                </p>
+            </div>
 
             <div class="row g-4 justify-content-center">
                 <div class="col-12 col-sm-6 col-lg-4">
@@ -64,7 +66,7 @@
 
         /* Dashboard Cards */
         .dashboard-card {
-            background: rgba(255, 255, 255, 0.8);
+            background: white;
             border-radius: 12px;
             padding: 20px;
             text-align: center;
@@ -77,7 +79,7 @@
         .dashboard-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-            background-color: #198754;
+            background-color: #7df7a1;
             color: white !important;
         }
 
